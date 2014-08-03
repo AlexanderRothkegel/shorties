@@ -1,0 +1,14 @@
+
+
+
+some short tools which may be useful when analysing time series given as simple txt-file tables.
+
+makePictures:
+	Generates pictures from a file. Lines are assumed to represent different pictures. Each line is assumed to contain x*y different values which represent the color of the pixels in the picture.
+
+calculateMeasures:
+	Assumes that you have a large number of data files with name fileName_XXX_YYY where XXX and YYY are different numbers. CalculateMeasures can calculate the mean of all data files and put them into a single table in output file.
+
+localMaxima/localMinimi:
+	Calculate the series of local minima or local maxima of some time series.
+
